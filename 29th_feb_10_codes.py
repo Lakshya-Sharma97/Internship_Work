@@ -23,9 +23,8 @@ print(f"Factorial of {no} is {result}")
 # Python Program for simple interest
 principle=float(input("Enter Principle Amount: "))
 rate=float(input("Enter Rate of interest: "))
-rate1=rate/100
 time=float(input("Enter Time: "))
-Simple_interest=(principle*rate1*time)/100
+Simple_interest=(principle*rate*time)/100
 print(f"Simple Interest is {Simple_interest}")
 
 
